@@ -1,0 +1,39 @@
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+!debug.keystore
+
+# ONNX Model files (too large for GitHub)
+*.onnx
+*.onnx.data
+*.pt
+*.pth
+
+# Tokenizer & config files (will be noted in README)
+tokenizer.json
+vocab.txt
+special_tokens_map.json
+tokenizer_config.json
+preprocessor_config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
